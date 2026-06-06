@@ -8,9 +8,9 @@ class Solution {
         for (int i=0;i<l-1;i++){
             for (int j=0;j<l-i-1;j++){
                 if (sq[j]>sq[j+1]){
-                    int temp=sq[j];
+                    int temp= sq[j];
                     sq[j]=sq[j+1];
-                    sq[j+1]=temp;
+                    sq[j+1]= temp;
 
                 }
 
